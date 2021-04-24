@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVer>latest</LangVer>
+    <Nullable>annotations</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="identityServer4.AccessTokenValidation" Version="3.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sinuka.Core\Sinuka.Core.csproj" />
+    <ProjectReference Include="..\Sinuka.Web.Accounts\Sinuka.Web.Accounts.csproj" />
+  </ItemGroup>
+
+</Project>
